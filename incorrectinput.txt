@@ -1,0 +1,10 @@
+# Ejemplo inválido 1
+
+```txt
+programa Hola {
+    x = 5
+    imprimir(x);
+}
+```
+
+---

@@ -6,7 +6,7 @@ import MiniLenguajeVisitor from './MiniLenguajeVisitor.js';
 
 
 const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
-    "\u5964\u0003\u0014R\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004\u0004",
+    "\u5964\u0003\u0013Q\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004\u0004",
     "\t\u0004\u0004\u0005\t\u0005\u0004\u0006\t\u0006\u0004\u0007\t\u0007",
     "\u0004\b\t\b\u0004\t\t\t\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002",
     "\u0007\u0002\u0017\n\u0002\f\u0002\u000e\u0002\u001a\u000b\u0002\u0003",
@@ -17,26 +17,26 @@ const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
     "\u00064\n\u0006\f\u0006\u000e\u00067\u000b\u0006\u0003\u0006\u0003\u0006",
     "\u0003\u0007\u0003\u0007\u0003\u0007\u0003\u0007\u0003\u0007\u0003\u0007",
     "\u0003\b\u0003\b\u0003\b\u0007\bD\n\b\f\b\u000e\bG\u000b\b\u0003\t\u0003",
-    "\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0005\tP\n\t\u0003\t\u0002",
-    "\u0002\n\u0002\u0004\u0006\b\n\f\u000e\u0010\u0002\u0003\u0003\u0002",
-    "\u0007\n\u0002R\u0002\u0012\u0003\u0002\u0002\u0002\u0004\"\u0003\u0002",
-    "\u0002\u0002\u0006$\u0003\u0002\u0002\u0002\b)\u0003\u0002\u0002\u0002",
-    "\n1\u0003\u0002\u0002\u0002\f:\u0003\u0002\u0002\u0002\u000e@\u0003",
-    "\u0002\u0002\u0002\u0010O\u0003\u0002\u0002\u0002\u0012\u0013\u0007",
-    "\u0003\u0002\u0002\u0013\u0014\u0007\u0011\u0002\u0002\u0014\u0018\u0007",
-    "\u000f\u0002\u0002\u0015\u0017\u0005\u0004\u0003\u0002\u0016\u0015\u0003",
-    "\u0002\u0002\u0002\u0017\u001a\u0003\u0002\u0002\u0002\u0018\u0016\u0003",
-    "\u0002\u0002\u0002\u0018\u0019\u0003\u0002\u0002\u0002\u0019\u001b\u0003",
-    "\u0002\u0002\u0002\u001a\u0018\u0003\u0002\u0002\u0002\u001b\u001c\u0007",
-    "\u0010\u0002\u0002\u001c\u001d\u0007\u0002\u0002\u0003\u001d\u0003\u0003",
-    "\u0002\u0002\u0002\u001e#\u0005\u0006\u0004\u0002\u001f#\u0005\b\u0005",
-    "\u0002 #\u0005\n\u0006\u0002!#\u0005\f\u0007\u0002\"\u001e\u0003\u0002",
-    "\u0002\u0002\"\u001f\u0003\u0002\u0002\u0002\" \u0003\u0002\u0002\u0002",
-    "\"!\u0003\u0002\u0002\u0002#\u0005\u0003\u0002\u0002\u0002$%\u0007\u0011",
+    "\t\u0003\t\u0003\t\u0003\t\u0003\t\u0005\tO\n\t\u0003\t\u0002\u0002",
+    "\n\u0002\u0004\u0006\b\n\f\u000e\u0010\u0002\u0003\u0003\u0002\u0007",
+    "\n\u0002P\u0002\u0012\u0003\u0002\u0002\u0002\u0004\"\u0003\u0002\u0002",
+    "\u0002\u0006$\u0003\u0002\u0002\u0002\b)\u0003\u0002\u0002\u0002\n1",
+    "\u0003\u0002\u0002\u0002\f:\u0003\u0002\u0002\u0002\u000e@\u0003\u0002",
+    "\u0002\u0002\u0010N\u0003\u0002\u0002\u0002\u0012\u0013\u0007\u0003",
+    "\u0002\u0002\u0013\u0014\u0007\u0012\u0002\u0002\u0014\u0018\u0007\u000f",
+    "\u0002\u0002\u0015\u0017\u0005\u0004\u0003\u0002\u0016\u0015\u0003\u0002",
+    "\u0002\u0002\u0017\u001a\u0003\u0002\u0002\u0002\u0018\u0016\u0003\u0002",
+    "\u0002\u0002\u0018\u0019\u0003\u0002\u0002\u0002\u0019\u001b\u0003\u0002",
+    "\u0002\u0002\u001a\u0018\u0003\u0002\u0002\u0002\u001b\u001c\u0007\u0010",
+    "\u0002\u0002\u001c\u001d\u0007\u0002\u0002\u0003\u001d\u0003\u0003\u0002",
+    "\u0002\u0002\u001e#\u0005\u0006\u0004\u0002\u001f#\u0005\b\u0005\u0002",
+    " #\u0005\f\u0007\u0002!#\u0005\n\u0006\u0002\"\u001e\u0003\u0002\u0002",
+    "\u0002\"\u001f\u0003\u0002\u0002\u0002\" \u0003\u0002\u0002\u0002\"",
+    "!\u0003\u0002\u0002\u0002#\u0005\u0003\u0002\u0002\u0002$%\u0007\u0012",
     "\u0002\u0002%&\u0007\u000b\u0002\u0002&\'\u0005\u000e\b\u0002\'(\u0007",
     "\f\u0002\u0002(\u0007\u0003\u0002\u0002\u0002)*\u0007\u0004\u0002\u0002",
     "*+\u0005\n\u0006\u0002+,\u0007\u0005\u0002\u0002,-\u0007\r\u0002\u0002",
-    "-.\u0007\u0011\u0002\u0002./\u0007\u000e\u0002\u0002/0\u0005\n\u0006",
+    "-.\u0007\u0012\u0002\u0002./\u0007\u000e\u0002\u0002/0\u0005\n\u0006",
     "\u00020\t\u0003\u0002\u0002\u000215\u0007\u000f\u0002\u000224\u0005",
     "\u0004\u0003\u000232\u0003\u0002\u0002\u000247\u0003\u0002\u0002\u0002",
     "53\u0003\u0002\u0002\u000256\u0003\u0002\u0002\u000268\u0003\u0002\u0002",
@@ -46,12 +46,11 @@ const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
     "?\r\u0003\u0002\u0002\u0002@E\u0005\u0010\t\u0002AB\t\u0002\u0002\u0002",
     "BD\u0005\u0010\t\u0002CA\u0003\u0002\u0002\u0002DG\u0003\u0002\u0002",
     "\u0002EC\u0003\u0002\u0002\u0002EF\u0003\u0002\u0002\u0002F\u000f\u0003",
-    "\u0002\u0002\u0002GE\u0003\u0002\u0002\u0002HP\u0007\u0012\u0002\u0002",
-    "IP\u0007\u0013\u0002\u0002JP\u0007\u0011\u0002\u0002KL\u0007\r\u0002",
-    "\u0002LM\u0005\u000e\b\u0002MN\u0007\u000e\u0002\u0002NP\u0003\u0002",
-    "\u0002\u0002OH\u0003\u0002\u0002\u0002OI\u0003\u0002\u0002\u0002OJ\u0003",
-    "\u0002\u0002\u0002OK\u0003\u0002\u0002\u0002P\u0011\u0003\u0002\u0002",
-    "\u0002\u0007\u0018\"5EO"].join("");
+    "\u0002\u0002\u0002GE\u0003\u0002\u0002\u0002HO\u0007\u0011\u0002\u0002",
+    "IO\u0007\u0012\u0002\u0002JK\u0007\r\u0002\u0002KL\u0005\u000e\b\u0002",
+    "LM\u0007\u000e\u0002\u0002MO\u0003\u0002\u0002\u0002NH\u0003\u0002\u0002",
+    "\u0002NI\u0003\u0002\u0002\u0002NJ\u0003\u0002\u0002\u0002O\u0011\u0003",
+    "\u0002\u0002\u0002\u0007\u0018\"5EN"].join("");
 
 
 const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
@@ -69,8 +68,7 @@ export default class MiniLenguajeParser extends antlr4.Parser {
     static symbolicNames = [ null, "PROGRAMA", "PROCESAR", "MANEJARERROR", 
                              "IMPRIMIR", "PLUS", "MINUS", "MULT", "DIV", 
                              "ASSIGN", "SEMI", "LPAREN", "RPAREN", "LBRACE", 
-                             "RBRACE", "Identifier", "Number", "String", 
-                             "WS" ];
+                             "RBRACE", "Number", "Identifier", "WS" ];
     static ruleNames = [ "programa", "instruccion", "asignacion", "excepcion", 
                          "bloque", "imprimir", "expresion", "termino" ];
 
@@ -147,15 +145,15 @@ export default class MiniLenguajeParser extends antlr4.Parser {
 	            this.state = 29;
 	            this.excepcion();
 	            break;
-	        case MiniLenguajeParser.LBRACE:
+	        case MiniLenguajeParser.IMPRIMIR:
 	            this.enterOuterAlt(localctx, 3);
 	            this.state = 30;
-	            this.bloque();
+	            this.imprimir();
 	            break;
-	        case MiniLenguajeParser.IMPRIMIR:
+	        case MiniLenguajeParser.LBRACE:
 	            this.enterOuterAlt(localctx, 4);
 	            this.state = 31;
-	            this.imprimir();
+	            this.bloque();
 	            break;
 	        default:
 	            throw new antlr4.error.NoViableAltException(this);
@@ -354,7 +352,7 @@ export default class MiniLenguajeParser extends antlr4.Parser {
 	    let localctx = new TerminoContext(this, this._ctx, this.state);
 	    this.enterRule(localctx, 14, MiniLenguajeParser.RULE_termino);
 	    try {
-	        this.state = 77;
+	        this.state = 76;
 	        this._errHandler.sync(this);
 	        switch(this._input.LA(1)) {
 	        case MiniLenguajeParser.Number:
@@ -362,23 +360,18 @@ export default class MiniLenguajeParser extends antlr4.Parser {
 	            this.state = 70;
 	            this.match(MiniLenguajeParser.Number);
 	            break;
-	        case MiniLenguajeParser.String:
+	        case MiniLenguajeParser.Identifier:
 	            this.enterOuterAlt(localctx, 2);
 	            this.state = 71;
-	            this.match(MiniLenguajeParser.String);
-	            break;
-	        case MiniLenguajeParser.Identifier:
-	            this.enterOuterAlt(localctx, 3);
-	            this.state = 72;
 	            this.match(MiniLenguajeParser.Identifier);
 	            break;
 	        case MiniLenguajeParser.LPAREN:
-	            this.enterOuterAlt(localctx, 4);
-	            this.state = 73;
+	            this.enterOuterAlt(localctx, 3);
+	            this.state = 72;
 	            this.match(MiniLenguajeParser.LPAREN);
-	            this.state = 74;
+	            this.state = 73;
 	            this.expresion();
-	            this.state = 75;
+	            this.state = 74;
 	            this.match(MiniLenguajeParser.RPAREN);
 	            break;
 	        default:
@@ -416,10 +409,9 @@ MiniLenguajeParser.LPAREN = 11;
 MiniLenguajeParser.RPAREN = 12;
 MiniLenguajeParser.LBRACE = 13;
 MiniLenguajeParser.RBRACE = 14;
-MiniLenguajeParser.Identifier = 15;
-MiniLenguajeParser.Number = 16;
-MiniLenguajeParser.String = 17;
-MiniLenguajeParser.WS = 18;
+MiniLenguajeParser.Number = 15;
+MiniLenguajeParser.Identifier = 16;
+MiniLenguajeParser.WS = 17;
 
 MiniLenguajeParser.RULE_programa = 0;
 MiniLenguajeParser.RULE_instruccion = 1;
@@ -522,12 +514,12 @@ class InstruccionContext extends antlr4.ParserRuleContext {
 	    return this.getTypedRuleContext(ExcepcionContext,0);
 	};
 
-	bloque() {
-	    return this.getTypedRuleContext(BloqueContext,0);
-	};
-
 	imprimir() {
 	    return this.getTypedRuleContext(ImprimirContext,0);
+	};
+
+	bloque() {
+	    return this.getTypedRuleContext(BloqueContext,0);
 	};
 
 	enterRule(listener) {
@@ -911,10 +903,6 @@ class TerminoContext extends antlr4.ParserRuleContext {
 
 	Number() {
 	    return this.getToken(MiniLenguajeParser.Number, 0);
-	};
-
-	String() {
-	    return this.getToken(MiniLenguajeParser.String, 0);
 	};
 
 	Identifier() {

@@ -7,8 +7,8 @@ programa
 instruccion
     : asignacion
     | excepcion
-    | bloque
     | imprimir
+    | bloque
     ;
 
 asignacion
@@ -33,7 +33,6 @@ expresion
 
 termino
     : Number
-    | String
     | Identifier
     | LPAREN expresion RPAREN
     ;
@@ -57,8 +56,7 @@ RPAREN : ')';
 LBRACE : '{';
 RBRACE : '}';
 
-Identifier : [a-zA-Z][a-zA-Z0-9_]*;
-Number : [0-9]+ ('.' [0-9]+)?;
-String : '"' .*? '"';
+Number : [0-9]+;
+Identifier : [a-zA-Z_][a-zA-Z0-9_]*;
 
 WS : [ \t\r\n]+ -> skip;

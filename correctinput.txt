@@ -1,0 +1,16 @@
+# Ejemplo válido 1
+
+```txt
+programa Hola {
+    x = 5;
+    imprimir(x);
+}
+```
+
+## Salida esperada
+
+```txt
+5
+```
+
+---

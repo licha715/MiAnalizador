@@ -1,0 +1,15 @@
+# Ejemplo válido 2
+
+```txt
+programa Test {
+
+    procesar {
+        imprimir(x);
+    } manejarError(e) {
+        imprimir(e);
+    }
+
+}
+```
+
+---

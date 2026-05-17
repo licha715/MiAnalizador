@@ -1,0 +1,4 @@
+programa Hola {
+    x = 5;
+    imprimir(x);
+}

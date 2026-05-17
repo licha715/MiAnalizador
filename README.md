@@ -78,40 +78,7 @@ Mi_Analizador/
 └── README.md
 ```
 
----
 
-# Ejemplo válido 1
-
-```txt
-programa Hola {
-    x = 5;
-    imprimir(x);
-}
-```
-
-## Salida esperada
-
-```txt
-5
-```
-
----
-
-# Ejemplo válido 2
-
-```txt
-programa Test {
-
-    procesar {
-        imprimir(x);
-    } manejarError(e) {
-        imprimir(e);
-    }
-
-}
-```
-
----
 
 # Funcionalidades implementadas
 

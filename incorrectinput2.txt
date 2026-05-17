@@ -1,0 +1,9 @@
+# Ejemplo inválido 2
+
+```txt
+programa {
+    imprimir(x);
+}
+```
+
+---
